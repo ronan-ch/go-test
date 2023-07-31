@@ -17,7 +17,7 @@ func main() {
 
 	ints := aa[1:] //对于aa做一个子切片，这个和字符串一样的
 	for i := range ints {
-		println(ints[i])
+		print(ints[i])
 	}
 	var name string = "Ronan Chen"
 	subname := name[2:]
@@ -51,8 +51,17 @@ func main() {
 	//println("test interface")
 	//StartTest()
 
-	println("test rtti")
-	StartTestRtti()
+	//println("test rtti")
+	//StartTestRtti()
+
+	//testimport()
+
+	//visitChannel()
+
+	//channelSwitch2()
+	//waitGroupTest()
+	//Play()
+	testHttpClient()
 }
 
 func fun1(vals ...int) int {
